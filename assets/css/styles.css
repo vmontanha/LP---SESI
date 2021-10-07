@@ -239,7 +239,7 @@ input {
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 2rem;
-  width: 35% !important;
+  width: 40%;
   height: fit-content;
   letter-spacing: 1px;
 }
@@ -456,6 +456,7 @@ input {
   #home {
     top: 0 !important;
     height: 100vh !important;
+    background-position: left !important;
   }  
 
   .home__data {
@@ -476,12 +477,19 @@ input {
   .home__title img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40vh;
+    margin-top: 20vh;
   }
-  .container__novo {
-    width: 85%;
+
+  .container__absolute {
     margin-left: auto;
     margin-right: auto;
+    width: 100% !important;
+  }
+
+  .container__velho{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85% !important;
   }
 
   #info {
