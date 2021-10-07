@@ -180,8 +180,8 @@ input {
 
 }
 #argumentReality {
-  padding-right: 50px;
-  padding-left: 10px;
+  padding-right: 25px;
+  padding-left: 27px;
 }
 .info-subtitle {
   font-size: 20px;
@@ -192,7 +192,7 @@ input {
 }
 
 .info__container img {
-  width: 40px;
+  width: 35px;
 }
 
 /*=============== ABOUT ===============*/
@@ -367,11 +367,6 @@ input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     width: 100%;
-  }
-  
-  .info__container img {
-    width: 60px;
-    margin-right: 10px;
   }
 }
 
