@@ -423,8 +423,8 @@ input {
 
   #home {
     top: 0 !important;
-    background-position: top;
-    height: 100vh !important;
+    height: 65vh !important;
+    background-position: left !important;
   }  
 
   .home__drone {
@@ -438,14 +438,14 @@ input {
   }
 
   .home__title .home__data-title{
-    margin-top: 20vh;
+    margin-top: 8vh;
     text-align: center;
   }
 
   .home__title img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40vh;
+    margin-top: 12vh;
   }
 
   #info {
@@ -528,6 +528,11 @@ input {
 
   .about__grey {
     width: 100% !important;
+  }
+
+  .about__img vctr-viewer {
+    height: 250px;
+    width: 100%;
   }
 
 }
