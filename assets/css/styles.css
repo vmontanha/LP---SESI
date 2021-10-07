@@ -118,12 +118,10 @@ input {
 }
 
 .home__title .home__data-title{
-  margin-top: 50%;
   text-align: center;
 }
 
 .home__title .home__data-subtitle{
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -145,14 +143,13 @@ input {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 2rem;
 }
 
 .home__data-title {
   font-size: 21px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .home__drone {
@@ -278,7 +275,8 @@ input {
   padding: 1rem 0 1rem;
   text-align: center;
   color: #fff;
-  font-size: 8px;
+  font-size: 11px;
+  line-height: 18px;
   font-family: 'Montserat', sans-serif;
   font-weight: 300;
 }
@@ -286,32 +284,10 @@ input {
   width: 80%;
 }
 
-.ar {
-  width: 200px !important;
-}
-
 .footer__rights {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.social__shares {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-.social__shares i {
-  font-size: 30px;
-  margin-right: 10px;
-  color: #000;
-  margin-left: 10px;
-  transition: transform .2s;
-}
-.social__shares a:hover {
-  transform: scale(1.2);
 }
 
 
@@ -428,8 +404,9 @@ input {
 
   #home {
     top: 0 !important;
-    height: 65vh !important;
+    height: 40vh !important;
     background-position: left !important;
+    background-image: url("../img/banner.svg");
   }  
 
   .home__drone {
@@ -443,18 +420,14 @@ input {
   }
 
   .home__title .home__data-title{
-    margin-top: 8vh;
+    margin-top: 0vh;
     text-align: center;
   }
 
   .home__title img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
-  }
-
-  #info {
-    display: none;
+    margin-top: 5vh;
   }
 
   .section__title {
@@ -472,14 +445,28 @@ input {
   .about__grey {
     width: 100% !important;
   }
+
+  #info {
+    padding: 1rem 0 1rem;
+    text-align: center;
+  }
+
+  .info-subtitle {
+    font-size: 13px;
+  }
+
+  .info-title, .info__container img{
+    display: none;
+  }
   
 }
 
 @media screen and (max-width: 570px) {
   #home {
     top: 0 !important;
-    height: 65vh !important;
-    background-position: left !important;
+    height: 40vh !important;
+    background-position: right !important;
+    background-image: url("../img/banner.svg");
   }  
 
   .home__data {
@@ -493,14 +480,18 @@ input {
   }
 
   .home__title .home__data-title{
-    margin-top: 8vh;
+    margin-top: 0vh;
     text-align: center;
+  }
+
+  .home__data-subtitle {
+    margin-top: 0 !important;
   }
 
   .home__title img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
+    margin-top: 5vh;
   }
 
   .container__absolute {
@@ -525,7 +516,7 @@ input {
   }
 
   .info-subtitle {
-    font-size: 9px;
+    font-size: 13px;
   }
   .info-title, .info__container img{
     display: none;
