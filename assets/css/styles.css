@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 @media screen and (min-width: 968px) {
   :root {
@@ -46,11 +46,11 @@ a {
   text-decoration: none;
 }
 
-/* img,
+img,
 video {
   max-width: 100%;
   height: auto;
-} */
+}
 
 button,
 input {
@@ -93,7 +93,7 @@ input {
   background-image: url("../img/banner.svg");
   width: 100%;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
   background-size: cover;
   position: relative;
   top: 0;
@@ -102,7 +102,7 @@ input {
 
 .home__data {
   width: 100%;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   align-items: center;
 }
@@ -135,20 +135,22 @@ input {
 
 .home__data-subtitle, 
 .home__data-title {
-  color: var(--white-color);
+  color: #fff;
 }
 
 .home__data-subtitle {
   display: block;
-  font-family: var(--title-font) !important;
-  font-size: 14px;
-  margin-bottom: var(--mb-0-75);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .home__data-title {
-  font-size: 21px;
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2-5);
+  font-size: 29px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 /* ============== Info =============== */
@@ -162,12 +164,16 @@ input {
 .info-title {
   font-size: 30px;
   color: #5F3987;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 
 }
 
 .info-subtitle {
   font-size: 16px;
   color: #5F3987;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   
 }
 
@@ -373,7 +379,7 @@ input {
 @media screen and (min-width: 1600px) {
   
   .container__novo {
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 
@@ -393,6 +399,32 @@ input {
 
   .home__drone img {
     max-width: 100%;
+  }
+
+  .info__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .info-title {
+    font-size: 20px;
+    color: #5F3987;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-right: 10%;
+  }
+  
+  .info-subtitle {
+    font-size: 12px;
+    color: #5F3987;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .info__container img {
+    width: 30px;
   }
 
   
