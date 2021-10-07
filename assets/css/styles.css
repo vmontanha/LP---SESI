@@ -91,10 +91,10 @@ input {
 
 /*=============== HOME ===============*/
 #home {
-  background-image: url("../img/banner.svg");
+  background-image: url("../img/banner.jpeg");
   width: 100%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   background-size: cover;
   position: relative;
   top: 0;
@@ -405,6 +405,7 @@ input {
 
   #home {
     top: 0 !important;
+    background-position: top;
     height: 100vh !important;
   }  
 
