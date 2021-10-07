@@ -463,6 +463,9 @@ input {
     margin-top: 40vh;
   }
 
+  #info {
+    display: none;
+  }
   
 }
 
