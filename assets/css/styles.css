@@ -46,11 +46,11 @@ a {
   text-decoration: none;
 }
 
-img,
+/* img,
 video {
   max-width: 100%;
   height: auto;
-}
+} */
 
 button,
 input {
@@ -77,10 +77,11 @@ input {
 }
 
 .section__title {
-  font-size: 40px;
-  color: var(--title-color);
-  margin-bottom: var(--mb-2);
-  font-family: var(--title-font) !important;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-family: 'Montserat', sans-serif;
+  font-weight: bold;
 }
 
 .grid {
@@ -97,12 +98,12 @@ input {
   background-size: cover;
   position: relative;
   top: 0;
-  height: 85vh;
+  height: 90vh;
 }
 
 .home__data {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -183,20 +184,24 @@ input {
 
 /*=============== ABOUT ===============*/
 
+#bis {
+  padding: 6rem 0 6rem;
+  background: rgb(27, 27, 27);
+  background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgba(41,41,41,1) 45%, rgb(0, 0, 0) 100%);
+}
 
 .about__data {
-  /* text-align: center; */
   width: 100%;
   z-index: 1;
   display: flex;
-  /* grid-row: auto; */
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
 }
 
 .about__div {
-  width: 50%;
+  width: 100%;
+  color: #fff;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -204,25 +209,22 @@ input {
   margin-left: auto;
   align-content: flex-end;
 }
-.about__div span {
-  margin-right: auto;
-  font-size: 20px;
-}
 
 .about__grey p {
   font-size: 14px;
   line-height: 23px;
   text-align: left;
+  color: #fff;
+  font-family: 'Montseratt', sans-serif;
+  font-weight: 300 !important;
 }
   
 .about__grey {
-  background-color: #f0f0f0cc;
   color: #4B4B4B;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   margin-bottom: 2rem;
-  font-family: var(--title-font);
-  width: 25% !important;
+  width: 35% !important;
   height: fit-content;
   letter-spacing: 1px;
 }
@@ -238,6 +240,14 @@ input {
 .about__content{
   display: inline;
   z-index: 1;
+}
+
+/* ============== DRONE =============== */
+
+#drone {
+  padding: 6rem 0 6rem;
+  background: #5F3987;
+  background: linear-gradient(90deg, #2b1b3d 0%, #2a193b 45%, #3c1f5c 100%);
 }
 
 /*=============== FOOTER ===============*/
@@ -389,7 +399,7 @@ input {
   }
 
   .home__data .home__title img{
-    width: 100% !important;
+    width: 460px !important;
   }
   .container__novo {
     width: 85%;
@@ -398,7 +408,7 @@ input {
   }
 
   .home__drone img {
-    max-width: 100%;
+    width: auto !important;
   }
 
   .info__container {
@@ -499,6 +509,10 @@ input {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #info {
+    display: none;
   }
 
 }
