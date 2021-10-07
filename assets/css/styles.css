@@ -274,6 +274,10 @@ input {
   width: 80%;
 }
 
+.ar {
+  width: 200px !important;
+}
+
 .footer__rights {
   display: block;
   margin-left: auto;
