@@ -275,7 +275,7 @@ input {
   padding: 1rem 0 1rem;
   text-align: center;
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 18px;
   font-family: 'Montserat', sans-serif;
   font-weight: 300;
@@ -285,9 +285,16 @@ input {
 }
 
 .footer__rights {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__rights img{
+  width: 190px;
 }
 
 
@@ -464,7 +471,7 @@ input {
 @media screen and (max-width: 570px) {
   #home {
     top: 0 !important;
-    height: 40vh !important;
+    height: 45vh !important;
     background-position: right !important;
     background-image: url("../img/banner.svg");
   }  
@@ -480,7 +487,7 @@ input {
   }
 
   .home__title .home__data-title{
-    margin-top: 0vh;
+    margin-top: 2vh;
     text-align: center;
   }
 
@@ -547,4 +554,11 @@ input {
     width: 100%;
   }
 
+  .footer__rights img{
+    width: 70px;
+  }
+
+  #footer_antidoto {
+    font-size: 9px;
+  }
 }
