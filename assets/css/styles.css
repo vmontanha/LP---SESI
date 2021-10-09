@@ -79,7 +79,6 @@ input {
 .section__title {
   font-size: 42px;
   color: #fff;
-  margin-bottom: 2rem;
   font-family: 'Montserat', sans-serif;
   font-weight: bold;
   padding-top: 5px;
@@ -220,8 +219,16 @@ input {
   flex-direction: row;
   align-content: center;
   justify-self: center;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
+}
+
+.about__sesicomciencia {
+  font-family: 'Montserat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  color: #fff;
 }
 
 .about__grey p {
@@ -460,6 +467,16 @@ input {
   .info-title, .info__container img{
     display: none;
   }
+
+  .about__sesicomciencia {
+    font-size: 9px;
+    width: 20%;
+    text-align: left;
+  }
+
+  .about__div {
+    align-items: center;
+  }
   
 }
 
@@ -555,5 +572,15 @@ input {
 
   #footer_antidoto {
     font-size: 9px;
+  }
+
+  .about__sesicomciencia {
+    font-size: 9px;
+    width: 30%;
+    text-align: left;
+  }
+
+  .about__div {
+    align-items: flex-start;
   }
 }
