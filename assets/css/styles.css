@@ -229,6 +229,7 @@ input {
   font-size: 15px;
   text-align: left;
   color: #fff;
+  padding-right: 1.5%;
 }
 
 .about__grey p {
@@ -582,5 +583,12 @@ input {
 
   .about__div {
     align-items: flex-start;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about__div h1 {
+    padding-left: 5%;
   }
 }
