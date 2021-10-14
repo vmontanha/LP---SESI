@@ -172,10 +172,12 @@ input {
 }
 
 .info-title {
-  font-size: 39px;
+  font-size: 25px;
   color: #5F3987;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  width: 70%;
 
 }
 #argumentReality {
@@ -192,6 +194,29 @@ input {
 
 .info__container img {
   width: 35px;
+}
+
+/* ==============tutorial list======== */
+
+.tutorial-list {
+  font-family: 'Montserat', sans-serif;
+  font-size: 1 5px;
+  width: 100%;
+  margin-top: 10%;
+  color: #fff;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.tutorial-list-mobile {
+  display: none;
+  font-family: 'Montserat', sans-serif;
+  font-size: 1 5px;
+  width: 100%;
+  margin-top: 10%;
+  color: #fff;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 /*=============== ABOUT ===============*/
@@ -240,13 +265,22 @@ input {
   font-family: 'Montseratt', sans-serif;
   font-weight: 300 !important;
 }
+
+.about__description p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Montseratt', sans-serif;
+  font-weight: 300 !important;
+}
   
 .about__grey {
   color: #4B4B4B;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 2rem;
-  width: 40%;
+  width: 50%;
   height: fit-content;
   letter-spacing: 1px;
 }
@@ -349,33 +383,21 @@ input {
   
 }
 
-@media screen and (min-width: 1600px) {
-
-}
-
 @media screen and (min-width: 1200px) {
   .info__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  
   .info-title {
-    font-size: 39px;
+    font-size: 29px;
     color: #5F3987;
-    text-align: left !important;
+    text-align: center !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 100%;
+    width: 60%;
   }
-  
-  .info-subtitle {
-    font-size: 20px;
-    color: #5F3987;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    width: 100%;
-  }
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -500,12 +522,12 @@ input {
   }
 
   .home__title .home__data-title{
-    margin-top: 2vh;
+    margin-top: 5vh;
     text-align: center;
   }
 
   .home__data-subtitle {
-    margin-top: 0 !important;
+    margin-top: 5vh !important;
   }
 
   .home__title img {
@@ -526,17 +548,8 @@ input {
     width: 85% !important;
   }
 
-  /* #info {
-    display: none;
-  } */
-
   #info {
-    padding: 1rem 0 1rem;
-    text-align: center;
-  }
-
-  .info-subtitle {
-    font-size: 13px;
+    display: none
   }
   .info-title, .info__container img{
     display: none;
@@ -556,6 +569,20 @@ input {
 
   .about__grey {
     width: 100% !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .about__grey img{
+    display: none;
+  }
+  .tutorial-list {
+    display: none;
+  }
+
+  .tutorial-list-mobile {
+    display: block;
+    margin-top: 0;
   }
 
   .about__grey p{
